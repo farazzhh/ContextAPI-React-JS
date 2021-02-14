@@ -46,7 +46,7 @@
 .input {
   border: none;
   /* background-color: grey; */
-  color: white;
+  color: gray;
   padding: 10px;
   border-radius: 10px;
   margin: 0 5px;
@@ -57,10 +57,9 @@
 .input::placeholder {
   color: lightgray;
 }
-.input:active {
-  background-color: gray;
+.input:focus{
+  outline-style: none;
 }
-
 .input-section-button {
   border: none;
   margin-top: 20px;
